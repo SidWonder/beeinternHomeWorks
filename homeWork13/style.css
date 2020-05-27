@@ -1,6 +1,5 @@
 .dashboard {
     display: flex;
-    flex-direction: row;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -100,6 +99,18 @@ ul {
     margin-bottom: 22px;
 }
 
+.item__title {
+    color: #4A4A4A;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.item__subtitle {
+    color: rgba(74, 74, 74, 0.5);
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .title {
     margin-top: 17px;
     margin-bottom: 22px;
@@ -156,6 +167,10 @@ ul {
     width: 98px;
     height: 158px;
     box-sizing: border-box;
+}
+
+.checkbox__input {
+    margin-right: 5px;
 }
 
 .main-windows__testTask {
